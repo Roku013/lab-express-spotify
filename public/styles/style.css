@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.front-page {
+  background-image: url(/images/spotify-background.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-button {
+  size: 200%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+input[type='text'] {
+  font-size: 24px;
+}
+
+input[type='submit'] {
+  font-size: 24px;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.each-item {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.search-results img {
+  width: 400px;
+  height: 400px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.item-description a {
+  background-color: pink;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+
+.item-description p {
+  inline-size: 350px;
+  overflow-wrap: break-word;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.each-audio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1rem;
+}
